@@ -49,6 +49,18 @@ console.log(data);
 
 For a deployed service, replace `http://localhost:3000` with your public HTTPS domain. Browsers can connect because CORS is enabled.
 
+## Deploy API to Vercel
+
+Install and authenticate with Vercel, then run from this project folder:
+
+```powershell
+npm install -g vercel
+vercel login
+vercel
+```
+
+Choose the current folder, accept the defaults, and copy the deployed URL. Test it with `/api/health` and `/api/matches?date=today`.
+
 ## ESPN source
 
 Use ESPN live data for English Premier League matches:
