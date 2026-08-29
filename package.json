@@ -1,0 +1,8 @@
+{
+  "name": "standalone-livescore-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone livescore JSON API with a simple browser dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" }
+}
